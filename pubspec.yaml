@@ -1,0 +1,33 @@
+name: clothing_link
+description: A fashion-focused social media platform
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  supabase_flutter: ^1.10.3
+  cached_network_image: ^3.2.3
+  infinite_scroll_pagination: ^3.2.0
+  image_picker: ^0.8.7+5
+  intl: ^0.18.1
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
